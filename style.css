@@ -201,4 +201,8 @@ header nav ul li{
         display: flex;
         align-items: center;
     }
+
+    #intro .col{
+        width: 100%;
+    }
 }
