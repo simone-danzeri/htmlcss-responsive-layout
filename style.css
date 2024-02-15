@@ -276,4 +276,8 @@ header nav ul li{
     #intro .col{
         width: 100%;
     }
+
+    .first-clean-code{
+        padding-bottom: 60px;
+    }
 }
