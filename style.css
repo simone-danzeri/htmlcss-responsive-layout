@@ -96,5 +96,14 @@ header nav ul li{
 /*---- MOBILE ----*/
 
 @media screen and (max-width: 768px) {
-    
+    .container{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .side-menu{
+        display: flex;
+        align-items: center;
+    }
 }
