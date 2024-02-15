@@ -68,3 +68,33 @@ header nav ul li{
     padding: 0px 20px;
     color: #fff;
 }
+
+.side-menu{
+    color: #fff;
+    display: none;
+}
+
+/*-----------------
+    RESPONSIVE
+-----------------*/
+
+/*---- TABLET ----*/
+
+@media screen and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .side-menu{
+        display: flex;
+        align-items: center;
+    }
+}
+
+/*---- MOBILE ----*/
+
+@media screen and (max-width: 768px) {
+    
+}
