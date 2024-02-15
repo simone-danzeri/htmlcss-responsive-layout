@@ -239,6 +239,24 @@ header nav ul li{
     .col-big-card{
         width: 100%;
     }
+
+    #strategic-planning .col{ /*---- per mandarle a capo ----*/
+        width: 100%;
+        justify-content: center;
+    }
+
+    .planning-card h2{
+        font-size: 50px;
+    }
+
+    .planning1{
+        width: 90%;
+    }
+
+    .planning-card-white{
+        margin-top: 20px;
+        width: 100%;
+    }
 }
 
 /*---- MOBILE ----*/
