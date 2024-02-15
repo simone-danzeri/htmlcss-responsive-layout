@@ -8,6 +8,22 @@
 }
 
 /*-----------------
+    GENERAL
+-----------------*/
+
+.container{
+    max-width: 1170px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 10px 14px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+/*-----------------
     TYPOGRAPHY
 -----------------*/
 
@@ -23,3 +39,32 @@
     font-style: normal;
   }
   
+
+/*-----------------
+    HEADER
+-----------------*/
+
+header{
+    background-color: #0084fd;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+nav , .logo{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    padding: 0px 20px;
+    color: #fff;
+}
