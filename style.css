@@ -32,6 +32,11 @@
     color: #fff;
 }
 
+.btn-circle{
+    border-radius: 50%;
+    background-color: #9792e4;
+}
+
 /*-----------------
     TYPOGRAPHY
 -----------------*/
@@ -162,6 +167,54 @@ header nav ul li{
 .padding-bottom{
     padding-bottom: 60px;
 }
+
+/*---------------------
+    STRATEGIC PLANNING
+---------------------*/
+
+#strategic-planning{
+    background-color: #9792e4;
+    padding: 60px 0px;
+}
+
+#strategic-planning .col{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.planning1{
+    width: 60%;
+}
+
+.planning-card h2{
+    color: #fff;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.planning-card-white{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 60%;
+    padding: 30px 0px;
+}
+
+.planning-card-white img{
+    width: 40%;
+}
+
+.planning-card-white p{
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 20px 0px;
+}
+
+.pippo{
+    width: 80%;
+    color: #fff;
+}
+
 
 /*-----------------
     RESPONSIVE
