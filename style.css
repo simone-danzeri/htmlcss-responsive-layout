@@ -17,10 +17,19 @@
     margin: 0 auto;
 }
 
+.center{
+    text-align: center;
+}
+
 .btn{
     padding: 10px 14px;
     border: 0px;
     border-radius: 20px;
+}
+
+.btn-blue{
+    background-color: #0084fd;
+    color: #fff;
 }
 
 /*-----------------
@@ -74,6 +83,86 @@ header nav ul li{
     display: none;
 }
 
+
+/*-----------------
+    INTRO
+-----------------*/
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.col{
+    padding: 0px 10px;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+.first-card{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: #b5ddff;
+    padding-top: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card{
+    height: 100%;
+    background-color: #b5ddff;
+    padding-top: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#intro{
+    padding-top: 50px;
+}
+
+#intro .col{
+    width: calc(100% / 3);
+    margin-bottom: 20px;
+}
+
+.col-big-card{
+    width: 50%;
+}
+
+.col-big-card img{
+    margin-top: 50px;
+    width: 70%;
+}
+
+.col-big-card h3, .col-big-card p{
+    padding-bottom: 34px;
+}
+
+.col-big-card h3{
+    color: #0084fd;
+}
+
+.icons i{
+    font-size: 70px;
+    color: #0084fd;
+}
+
+.icons-title h3{
+    color: #0084fd;
+    padding: 40px 0px;
+}
+
+.padding-bottom{
+    padding-bottom: 60px;
+}
+
 /*-----------------
     RESPONSIVE
 -----------------*/
@@ -84,12 +173,18 @@ header nav ul li{
     .container{
         width: 100%;
     }
+
     nav{
         display: none;
     }
+
     .side-menu{
         display: flex;
         align-items: center;
+    }
+
+    .col-big-card{
+        width: 100%;
     }
 }
 
