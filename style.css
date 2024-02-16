@@ -329,11 +329,9 @@ header nav ul li{
 
 #benefits .col{
     width: calc(100% / 3);
-}
-
-#benefits .row{
     margin-bottom: 32px;
 }
+
 
 
 /*-----------------
@@ -387,6 +385,14 @@ header nav ul li{
         padding: 66px 30px;
     }
 
+    #benefits .col{
+        width: 50%;
+    }
+
+    #benefits .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 /*---- MOBILE ----*/
@@ -430,5 +436,9 @@ header nav ul li{
     #testimonials .testimonials-name{
         text-align: center;
         font-size: 24px;
+    }
+
+    #benefits .col{
+        width: 100%;
     }
 }
