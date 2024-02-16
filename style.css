@@ -389,10 +389,10 @@ header nav ul li{
     padding-bottom: 32px;
 }
 
-.about-us-card .quotes{
+.quotes-container .quotes{
     position: absolute;
     top: 0;
-    right: 110px;
+    right: 35%;
     color: #9792e4;
     font-size: 90px;
     z-index: 10;
@@ -457,6 +457,20 @@ header nav ul li{
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    #about-us .container{
+        width: 100%;
+    }
+
+    .quotes-container .quotes{
+        position: absolute;
+        top: 0;
+        right: 30%;
+        color: #9792e4;
+        font-size: 90px;
+        z-index: 10;
+    }
+
 }
 
 /*---- MOBILE ----*/
@@ -504,5 +518,10 @@ header nav ul li{
 
     #benefits .col{
         width: 100%;
+    }
+
+    #about-us .col-left , #about-us .col-right{
+        width: 100%;
+        padding: 0px 30px
     }
 }
