@@ -464,6 +464,30 @@ header nav ul li{
     color: #fff;
 }
 
+/*-----------------
+    FOOTER
+-----------------*/
+
+footer{
+    background-color: #333333;
+    padding: 40px 0px;
+}
+
+
+footer p{
+    color: #fff;
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer .links{
+    padding-top: 72px;
+}
+
+footer a{
+    color: #9792e4;
+}
+
 
 /*-----------------
     RESPONSIVE
