@@ -37,12 +37,25 @@
     background-color: #9792e4;
 }
 
+.btn-purple{
+    background-color: #9792e4;
+    color: #fff;
+}
+
+.btn-large{
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
 /*-----------------
     TYPOGRAPHY
 -----------------*/
 
 body {
     font-family: "PT Sans", sans-serif;
+    line-height: 1.5;
 }
   
 /*-----------------
@@ -275,6 +288,52 @@ header nav ul li{
     padding-bottom: 34px;
 }
 
+/*-----------------
+    BENEFITS
+-----------------*/
+
+#benefits{
+    background-color: #9792e4;
+    padding-top: 76px;
+    padding-bottom: 62px;
+}
+
+.benefits-main-title{
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 72px;
+}
+
+.benefits-card{
+    background-color: #fff;
+    border-radius: 20px;
+    padding-top: 38px;
+    padding-left: 36px;
+    padding-bottom: 32px;
+}
+
+.benefits-card h1{
+    color: #9792e4;
+    font-size: 90px;
+}
+
+.benefits-card h3{
+    color: #9792e4;
+    font-size: 25px;
+}
+
+.benefits-card p{
+    padding: 16px 0px;
+    max-width: 80%;
+}
+
+#benefits .col{
+    width: calc(100% / 3);
+}
+
+#benefits .row{
+    margin-bottom: 32px;
+}
 
 
 /*-----------------
