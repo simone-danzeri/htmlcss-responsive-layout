@@ -117,6 +117,10 @@ header nav ul li{
     margin-left: -10px;
 }
 
+#intro .container{
+    padding: 0px 30px;
+}
+
 .col{
     padding: 0px 10px;
 }
@@ -195,6 +199,10 @@ header nav ul li{
 #strategic-planning{
     background-color: #9792e4;
     padding: 60px 0px;
+}
+
+#strategic-planning .container{
+    padding: 0px 30px;
 }
 
 #strategic-planning .col{
@@ -311,6 +319,10 @@ header nav ul li{
     padding-bottom: 62px;
 }
 
+#benefits .container{
+    padding: 0px 30px;
+}
+
 .benefits-main-title{
     color: #fff;
     font-size: 50px;
@@ -354,8 +366,13 @@ header nav ul li{
     padding-bottom: 150px;
 }
 
+#about-us .container{
+    padding: 0px 30px;
+}
+
 #about-us .col-left{
     width: 70%;
+    
 }
 
 #about-us .col-right{
