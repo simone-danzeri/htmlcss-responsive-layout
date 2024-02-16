@@ -49,6 +49,10 @@
     font-weight: bold;
 }
 
+.btn-lkd{
+    padding: 6px 20px;
+}
+
 /*-----------------
     TYPOGRAPHY
 -----------------*/
@@ -332,7 +336,67 @@ header nav ul li{
     margin-bottom: 32px;
 }
 
+/*-----------------
+    ABOUT US
+-----------------*/
 
+#about-us{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#about-us .col-left{
+    width: 70%;
+}
+
+#about-us .col-right{
+    width: 30%;
+}
+
+#about-us h1{
+    color: #9792e4;
+    font-size: 70px;
+}
+
+#about-us p{
+    line-height: 2;
+    font-size: 18px;
+    max-width: 90%;
+}
+
+#about-us .top-p{
+    padding: 64px 0px;
+}
+
+#about-us button i{
+    padding-right: 8px;
+}
+
+#about-us img{
+    max-width: 60%;
+    clip-path: circle();
+}
+
+.col-right .about-us-card {
+    height: 100%;
+    position: relative;
+}
+
+.about-us-card h2{
+    color: #9792e4;
+    max-width: 60%;
+    padding-top: 26px;
+    padding-bottom: 32px;
+}
+
+.about-us-card .quotes{
+    position: absolute;
+    top: 0;
+    right: 110px;
+    color: #9792e4;
+    font-size: 90px;
+    z-index: 10;
+}
 
 /*-----------------
     RESPONSIVE
