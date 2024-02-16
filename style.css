@@ -53,6 +53,15 @@
     padding: 6px 20px;
 }
 
+.btn-gs{
+    padding: 30px 80px;
+    border-radius: 40px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #9792e4;
+    margin-top: 38px;
+    margin-bottom: 32px;
+}
 /*-----------------
     TYPOGRAPHY
 -----------------*/
@@ -397,6 +406,64 @@ header nav ul li{
     font-size: 90px;
     z-index: 10;
 }
+
+/*-----------------
+    GET STARTED
+-----------------*/
+
+#get-started{
+    background-color: #9792e4;
+    padding: 66px 0px;
+}
+
+#get-started .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#get-started h4{
+    font-weight: 100;
+    color: #fff;
+}
+
+#get-started h2{
+    font-size: 45px;
+    color: #fff;
+}
+
+#get-started h1{
+    font-size: 70px;
+    color: #fdc15f;
+    padding: 22px 0px;
+}
+
+#get-started .beta{
+    max-width: 42%;
+    color: #fff;
+}
+
+#get-started .copyright{
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+#get-started .copyright ul{
+    display: flex;
+    align-items: center;
+}
+
+#get-started .copyright i{
+    font-size: 8px ;
+    padding: 0px 4px;
+}
+
+#get-started a{
+    color: #fff;
+}
+
 
 /*-----------------
     RESPONSIVE
